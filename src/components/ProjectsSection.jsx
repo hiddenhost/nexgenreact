@@ -75,7 +75,7 @@ const Projects = () => {
         {
             title: "Furniture Shop",
          //   description: "E-commerce platform for furniture retail",
-            image: "src/assets/furniture.png",
+            image: "/src/assets/furniture.png",
             previewLink: "https://furniture-shop-lac.vercel.app/",
          //   technologies: ["React", "Shopify", "Tailwind CSS"]
         }
