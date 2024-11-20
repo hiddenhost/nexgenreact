@@ -1,5 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { ExternalLink, Eye, ChevronLeft, ChevronRight } from 'lucide-react';
+import commerceImage from '/src/assets/commerce.jpeg';
+import TravelImage from '/src/assets/Travel.jpeg';
+import FoodImage from '/src/assets/food.jpg'; 
+import PaymentImage from '/src/assets/payment.jpeg';
+import CompanyImage from '/src/assets/company.jpeg';
+import SchoolImage from '/src/assets/school.jpeg';
+import PropertyImage from '/src/assets/real state.jpeg';
+import HotelImage from '/src/assets/hotel.png';  
+import FurnitureImage from '/src/assets/furniture.png';
 
 const Projects = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -8,7 +17,7 @@ const Projects = () => {
         {
             title: "Deal360",
          //   description: "Full-featured online shopping platform with modern UI/UX",
-            image: "src/assets/commerce.jpeg",
+            image: commerceImage,
             previewLink: "https://deal360.in/",
             //technologies: ["React", "Node.js", "MongoDB", "Stripe"]
         },
@@ -16,35 +25,35 @@ const Projects = () => {
         {
             title: "Skywings",
          //   description: "Travel booking and tour management platform",
-            image: "src/assets/Travel.jpeg",
+            image: TravelImage,
             previewLink: "https://skywings-khaki.vercel.app/",
             //technologies: ["Next.js", "Tailwind CSS", "PostgreSQL"]
         },
         {
           title: "Grilli",
           //description: "Restaurant showcase with online ordering system",
-          image: "src/assets/food.jpg",
+          image: FoodImage,
           previewLink: "https://yourrestraunt.netlify.app/",
           //technologies: ["React", "Express", "MongoDB"]
         },
         {
           title: "Garbs.in",
          // description: "Full-featured online shopping platform with modern UI/UX",
-          image: "src/assets/payment.jpeg",
+          image: PaymentImage,
           previewLink: "https://garbs.in/",
           //technologies: ["React", "Node.js", "MongoDB", "Stripe"]
       },
       {
         title: "Kaizen INC",
         //description: "Corporate website with team collaboration features",
-        image: "src/assets/company.jpeg",
+        image: CompanyImage,
         previewLink: "https://www.kaizeninc.org/",
         //technologies: ["React", "Firebase", "Tailwind"]
     },
         {
           title: "Parv's Academy",
           //description: "Educational institution management system",
-          image: "src/assets/school.jpeg",
+          image: SchoolImage,
           previewLink: "https://www.theparvsacademy.com/",
           //technologies: ["React", "Node.js", "MySQL"]
       },
@@ -53,7 +62,7 @@ const Projects = () => {
         {
             title: "PropertyDekho",
          //   description: "Property listing and virtual tour platform",
-            image: "src/assets/real state.jpeg",
+            image: PropertyImage,
             previewLink: "https://propertydekhoo.netlify.app/",
            // technologies: ["Next.js", "MongoDB", "Google Maps API"]
         },
@@ -61,21 +70,21 @@ const Projects = () => {
         {
             title: "Hotel Miranda",
          //   description: "Hotel booking and management system",
-            image: "src/assets/hotel.png",
+            image: HotelImage,
             previewLink: "https://hotel-miranda-beta.vercel.app/",
            // technologies: ["Next.js", "Prisma", "PostgreSQL"]
         },
         {
           title: "Desinic",
          // description: "Hotel booking and management system",
-          image: "src/assets/company.jpeg",
+          image: CompanyImage,
           previewLink: "https://websitedemogrill.netlify.app/",
          // technologies: ["Next.js", "Prisma", "PostgreSQL"]
       },
         {
             title: "Furniture Shop",
          //   description: "E-commerce platform for furniture retail",
-            image: "/src/assets/furniture.png",
+            image: FurnitureImage,
             previewLink: "https://furniture-shop-lac.vercel.app/",
          //   technologies: ["React", "Shopify", "Tailwind CSS"]
         }
