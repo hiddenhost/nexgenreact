@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60">
+  <!-- Left geometric shapes -->
+  <rect x="10" y="15" width="15" height="15" fill="#00ffd5" />
+  <rect x="10" y="32" width="15" height="15" fill="#00ffd5" />
+  <rect x="27" y="15" width="15" height="15" fill="#00e6ff" />
+  <rect x="27" y="32" width="15" height="15" fill="#00e6ff" />
+  
+  <!-- NEXGEN text -->
+  <text x="55" y="42" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff">NEXGEN</text>
+  
+  <!-- Dot on the right -->
+  <circle cx="210" cy="30" r="4" fill="#00ffd5" />
+</svg>
