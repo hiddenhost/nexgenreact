@@ -1,10 +1,10 @@
 import Navbar from "./Navbar";
 import Billing from "./Billing";
 import SEOSection from "./SEOSection"
-import CardDeal from "./CardDeal";
-import Business from "./Business";
+import Technologies from "./Technologies";
+import Specification from "./Specification";
 import Clients from "./Clients";
-import CTA from "./CTA";
+import Connect from "./Connect";
 import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
@@ -17,11 +17,11 @@ export {
   Navbar,
   Billing,
   SEOSection,
-  CardDeal,
-  Business,
+  Technologies,
+  Specification,
   ContactForm,
   Clients,
-  CTA,
+  Connect,
   Stats,
   Footer,
   Testimonials,

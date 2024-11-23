@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero, Services,SEOSection,ProjectsSection,ContactForm } from "./components";
+import { Billing, Specification, Technologies, Clients, Connect, Footer, Navbar, Stats, Testimonials, Hero, Services,SEOSection,ProjectsSection,ContactForm } from "./components";
 import { Contact, ProjectorIcon } from "lucide-react";
 
 const App = () => (
@@ -20,12 +20,12 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Stats />
         <Services/>
-        <Business />
+        <Specification />
         <SEOSection/>
         <ProjectsSection/>
-        <CardDeal />
+        <Technologies />
         <Testimonials/>
-        <CTA />
+        <Connect />
         <ContactForm/>
         <Footer />
       </div>

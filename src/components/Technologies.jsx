@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles, { layout } from "../style";
 
-const CardDeal = () => {
+const Technologies = () => {
   const [hoveredTech, setHoveredTech] = useState(null);
 
   // Utility function to detect mobile devices
@@ -276,4 +276,4 @@ const CardDeal = () => {
   );
 };
 
-export default CardDeal;
+export default Technologies;
