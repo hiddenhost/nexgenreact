@@ -12,7 +12,7 @@ const Footer = () => (
           className="w-[266px] h-[72.14px] object-contain"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-        Unlock New Heights with NexGen.
+        Smart technology for smarter businesses. Let us help you scale, thrive, and lead in the digital age.
         </p>
       </div>
 
